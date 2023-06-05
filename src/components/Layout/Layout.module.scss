@@ -1,0 +1,30 @@
+.header {
+  position: absolute;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  width: 100%;
+}
+
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+@media screen and (min-width: 480px) {
+  .container {
+    width: 480px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .container {
+    width: 1280px;
+  }
+}

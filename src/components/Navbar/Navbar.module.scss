@@ -1,0 +1,41 @@
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.pageLogo {
+  margin-right: 56px;
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    filter: drop-shadow(0px 4px 4px rgba(255, 255, 255, 0.25));
+  }
+}
+
+.navList {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.listItem {
+  &:not(:last-child) {
+    margin-right: 32px;
+  }
+}
+
+.link {
+  font-size: 32px;
+  color: #ebd8ff;
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    filter: drop-shadow(0px 4px 4px rgba(255, 255, 255, 0.25));
+  }
+}
+
+.link:global(.active) {
+  color: #3ab085;
+}

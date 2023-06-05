@@ -1,5 +1,7 @@
+import { UserRoutes } from "./UserRoutes";
+
 function App() {
-  return <div>Hello</div>;
+  return <UserRoutes />;
 }
 
 export default App;
